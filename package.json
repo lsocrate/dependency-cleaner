@@ -1,0 +1,26 @@
+{
+  "name": "dependency-cleaner",
+  "version": "0.0.0",
+  "description": "Cleans unnused depencies",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:lsocrate/dependency-cleaner.git"
+  },
+  "keywords": [
+    "dependency",
+    "clean",
+    "require"
+  ],
+  "author": "Luiz Sócrate",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lsocrate/dependency-cleaner/issues"
+  },
+  "dependencies": {
+    "detective": "~2.2.0"
+  }
+}
