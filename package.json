@@ -1,6 +1,6 @@
 {
-  "name": "Sweeper",
-  "version": "0.1.0",
+  "name": "sweeper",
+  "version": "0.1.1",
   "description": "Cleans unused depencies",
   "main": "index",
   "bin": {
