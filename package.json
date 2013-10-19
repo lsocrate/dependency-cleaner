@@ -1,8 +1,14 @@
 {
-  "name": "dependency-cleaner",
-  "version": "0.0.0",
-  "description": "Cleans unnused depencies",
-  "main": "index.js",
+  "name": "Sweeper",
+  "version": "0.1.0",
+  "description": "Cleans unused depencies",
+  "main": "index",
+  "bin": {
+    "sweeper": "./bin/sweeper"
+  },
+  "engines" : {
+    "node" : "*"
+  },
   "scripts": {
     "test": "test"
   },
@@ -15,12 +21,14 @@
     "clean",
     "require"
   ],
-  "author": "Luiz Sócrate",
+  "author": "Luiz Sócrate <luiz@socrate.com.br>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/lsocrate/dependency-cleaner/issues"
   },
   "dependencies": {
-    "detective": "~2.2.0"
+    "detective": "~2.2.0",
+    "readdirp": "~0.3.1",
+    "commander": "~2.0.0"
   }
 }
